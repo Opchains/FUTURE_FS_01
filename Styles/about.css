@@ -306,6 +306,7 @@ header {
 .footer .container {
   max-width: 1000px;
   margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
 }
 
 .footer-links {
@@ -333,7 +334,7 @@ header {
   color: #333;
   font-size: 1.4rem;
   transition: color 0.3s ease;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .footer-social a:hover .fa-envelope {
