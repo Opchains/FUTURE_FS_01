@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ademola – Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../Styles/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Ademola</div>
+            <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact-hero" class="contact-hero-section">
+            <div class="container contact-hero-container">
+                <h1 class="contact-title">Let’s Work Together</h1>
+                <p class="contact-description">
+                Have a project in mind or just want to say hello? I’d love to hear from you.
+                Let’s connect and build something amazing together.
+                </p>
+                <a href="#contact-form" class="contact-btn">Get in Touch</a>
+            </div>
+        </section>
+
+        <section id="contact-form" class="contact-form-section">
+            <div class="container">
+                <h2 class="section-title">Send Me a Message</h2>
+                <p class="section-description">
+                    Have a question, a project idea, or just want to say hello? Fill out the form below, and I’ll get back to you as soon as possible.
+                </p>
+
+                <form action="#" method="POST" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your full name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Write your message here..." rows="6" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="contact-info-section">
+            <div class="container contact-info-container">
+                <div class="contact-info-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h4>Location</h4>
+                    <p>Lagos, Nigeria</p>
+                </div>
+
+                <div class="contact-info-card">
+                    <i class="fas fa-envelope"></i>
+                    <h4>Email</h4>
+                    <p><a href="mailto:wasiuadekunle67@gmail.com">wasiuadekunle67@gmail.com</a></p>
+                </div>
+
+                <div class="contact-info-card">
+                    <i class="fas fa-phone-alt"></i>
+                    <h4>Phone</h4>
+                    <p>+2348135619545</p>
+                </div>
+
+                <div class="contact-info-card">
+                    <i class="fab fa-linkedin"></i>
+                    <h4>LinkedIn</h4>
+                    <p><a href="https://www.linkedin.com/in/abdulwasiu-adekunle-a5037229b" target="_blank">My LinkedIn Profile</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Ademola. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="mailto:wasiuadekunle67@gmail.com" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/abdulwasiu-adekunle-a5037229b" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Opchains" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://x.com/Grimripper_01" target="_blank" title="X (Twitter)" class="social-icon x-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="24" height="24" fill="currentColor">
+                    <path d="M230.3 220.8L72.6 32h91.8l95.4 114.8L351 32h88.5L291 245.1 447.7 448H356l-102.8-123.7L161 448H72l158.3-227.2zM169.3 73.9h-.7l180.2 221.6h.7L169.3 73.9z"/>
+                </svg>
+                </a>
+
+                <a href="https://www.instagram.com/ademolaadekunle678" target="_blank" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <button id="backToTop" title="Back to Top">↑</button>
+    <script src="../scripts.js"></script>
+</body>
+</html>
