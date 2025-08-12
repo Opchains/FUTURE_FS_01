@@ -537,3 +537,22 @@ html {
     transform: translateY(0);
   }
 }
+
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .about-text h2 {
+    font-size: 1.6rem;
+  }
+  .about-text p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-photo img {
+    max-width: 180px;
+  }
+}
