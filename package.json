@@ -4,6 +4,7 @@
   "description": "",
   "main": "scripts.js",
   "scripts": {
+    "build": "npm run build",
     "start": "http-server .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
